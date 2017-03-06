@@ -1,0 +1,197 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {	
+	.top-nav ul li {
+		padding-left: 20px;
+	}
+	.search-w.active .input {
+		min-width: 480px;
+	}
+	.midas-inner,
+	.grants-inner,
+	.skolkovo-inner,
+	.research-inner,
+	.publication-inner,
+	.command-inner,
+	.doctor-inner,
+	.partners-inner {
+		display: none;
+	}
+	.cases-wrap-top, 
+	.cases-wrap-bottom {
+		padding-left: 20px;
+	} 
+	.cases-wrap-top h2, 
+	.cases-wrap-bottom h2 {
+		font-size: 15px;
+	}
+	.cases h2,
+	.top-leaders h2 {
+		font-size: 15px;
+	}
+	.wrap-icon {
+		top: 7%;
+	}
+	.top-leaders,
+	.cases {
+		padding-left: 20px;
+	}
+	.btn-transparent {
+		width: 182px;
+	}
+	.bottom-nav ul li {
+		padding-left: 18px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.hamburger-menu {		
+		left: 94%;
+		top: 35px;
+	}	
+	.mobile-header-nav {
+		top: 139px;
+	}
+	.nav-wrap {
+		display: none;
+	}
+	.btn-transparent {
+	    width: 96%;
+	}
+	.bottom-nav-wrap {
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+	.video-wrap a {
+		left: 23%;
+	}
+	.cases-wrap-top, 
+	.cases-wrap-bottom {
+		min-height: 570px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 736px) {
+
+}
+
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 667px) {
+	.btn-transparent {
+	    width: 92%;
+	}
+	.hamburger-menu {
+		left: 90%;
+	}
+}
+/* Custom, iPhone 5 */
+@media only screen and (max-width : 568px) {
+	.video-wrap a {
+		left: 19%;
+	}	
+	.btn-transparent {
+	    width: 91%;
+	}
+	.bottom-nav ul li {
+		display: block;
+		margin-bottom: 30px;
+	}
+	.logo-bottom-wrap,
+	.copyright-wrap,
+	.bottom-nav-wrap {
+		text-align: center;
+	}
+	.main-footer {
+		padding-bottom: 20px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 414px) {
+
+}
+
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 375px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
